@@ -1,4 +1,5 @@
-# Embedded Project
+# Embedded-Project
+This is the Repositry for the embedded systems project
 # 🕒 4-Digit 7-Segment Display Timer & Voltmeter (mbed - NUCLEO-F401RE)
 
 ## 📋 Overview
@@ -91,3 +92,4 @@ Uses SPI-like bit-banging to send segment and digit control data to the shift re
 - Uses `& 0x7F` in digit 1 or voltage digit 0 to simulate a **decimal point**.
 - Voltage is limited to 0–3.3V due to the MCU's ADC range.
 - `total_seconds` wraps at 6000 seconds (99:59) to avoid overflow.
+
